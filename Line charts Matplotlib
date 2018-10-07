@@ -1,0 +1,9 @@
+x_axis = range(1,20)
+type(x_axis)
+%matplotlib inline
+plt.plot(x_axis,train_score,label='Train Score', c='g')
+plt.plot(x_axis,test_score,label='Test Score', c='b')
+plt.xlabel('No. Neighbors')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.show()
