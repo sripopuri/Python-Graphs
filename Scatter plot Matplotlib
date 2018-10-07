@@ -1,0 +1,6 @@
+# X_Area and y both are series.
+X_area = X.iloc[:,3]
+plt.scatter(X_area,y,c=y)
+plt.xlabel('Mean Area')
+plt.ylabel('Malignant/Benign')
+plt.title('Cancer Vs Tumor Area')
